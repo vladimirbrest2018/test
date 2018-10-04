@@ -1,0 +1,22 @@
+{
+  "name": "demon/axioma-react",
+  "authors": [
+    {
+      "name": "levyn",
+      "email": "levyn2008@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Core\\": "core",
+      "Controllers\\": "Controllers",
+      "Queries\\": "Queries",
+      "Helpers\\": "Helpers",
+      "Core\\Container\\": "core/Container"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.4"
+  }
+}
